@@ -1,14 +1,9 @@
-let meta = {
-    value: "Ganhar títulos importantes",
-    checked: false,
+function start() {
+    let count = 0;
+    while(count < 10) {
+        console.log(count)
+        count++;
+    }
 }
 
-let metas = [
-    meta,
-    {
-        value: "Correr 20 minutos",
-        checked: true,
-    }
-]
-
-console.log(metas[1].value)
+start();
