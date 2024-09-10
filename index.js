@@ -1,17 +1,14 @@
-//arrays, objetos
-
 let meta = {
     value: "Ganhar títulos importantes",
-    adress: 2,
     checked: false,
-    log: (info) => {
-        console.log(info);
-    }
 }
 
-meta.value = "Mudei a meta"
-meta.log(meta.value);
+let metas = [
+    meta,
+    {
+        value: "Correr 20 minutos",
+        checked: true,
+    }
+]
 
-//function //arrow function
-//const criarMeta = () => {}
-//function criarMeta() {}
+console.log(metas[1].value)
