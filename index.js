@@ -1,8 +1,17 @@
-const mensagem = "Vai Corinthians!"
+//arrays, objetos
 
-{
-    const mensagem = "CR7 SIuuuuuu"
-    console.log(mensagem);
+let meta = {
+    value: "Ganhar títulos importantes",
+    adress: 2,
+    checked: false,
+    log: (info) => {
+        console.log(info);
+    }
 }
 
-console.log(mensagem);
+meta.value = "Mudei a meta"
+meta.log(meta.value);
+
+//function //arrow function
+//const criarMeta = () => {}
+//function criarMeta() {}
