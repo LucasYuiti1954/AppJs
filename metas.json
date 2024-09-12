@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "value": "Correr",
+    "checked": true
+  },
+  {
+    "value": "Andar",
+    "checked": false
+  },
+  {
+    "value": "Beber água",
+    "checked": false
+  }
+]
